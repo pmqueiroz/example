@@ -2,8 +2,8 @@
 
 package umbra_test
 
-str world -> "World"
-mut num year -> 2022
+str world <- "World"
+mut num year <- 2022
 
 def main() {
    out("Hello, $world!")
