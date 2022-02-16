@@ -4,6 +4,10 @@ package umbra_test
 
 str world <- "World" # create an string constant with value "World"
 mut num year <- 2022 # create a number mutable with value 2022
+obj person <- {}
+arr year <- []
+
+person->name <- "Peam"
 
 def main() {
    out("Hello, $world!")
